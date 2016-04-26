@@ -12,17 +12,17 @@ public class TheMotivator {
 
 	public void addLetterGrade(int score) {
 		if (score == 100)
-			System.out.println("A");
+			System.out.println("Letter Grade: A; GPA: 4.0");
 		else if (score > 90)
-			System.out.println("A-");
+			System.out.println("Letter Grade: A-; GPA: 3.5");
 		else if (score > 80)
-			System.out.println("B");
+			System.out.println("Letter Grade: B; GPA: 3.2");
 		else if (score > 70)
-			System.out.println("C");
+			System.out.println("Letter Grade: C; GPA: 3.0");
 		else if (score > 60)
-			System.out.println("D");
+			System.out.println("Letter Grade: D; GPA: 2.8");
 		else
-			System.out.println("Failed Class!");
+			System.out.println("Failed Class!; GPA: BAD!");
 	}
 
 	public static void main(String[] args) {
