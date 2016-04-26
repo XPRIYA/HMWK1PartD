@@ -11,6 +11,7 @@ public class TheMotivator {
 	}
 
 	public void addLetterGrade(int score) {
+		System.out.println("Letter Grade and GPA is as follows:");
 		if (score == 100)
 			System.out.println("Letter Grade: A; GPA: 4.0");
 		else if (score > 90)
